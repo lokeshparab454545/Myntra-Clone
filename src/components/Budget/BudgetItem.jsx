@@ -4,7 +4,7 @@ const BudgetItem = ({ item }) => {
     return (
         <div>
             <div className='budget-img'>
-                <img width="280px" src={item.imgScr} alt="" />
+                <img width="230px" src={item.imgScr} alt="" />
             </div>
         </div>
     )

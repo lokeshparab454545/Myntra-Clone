@@ -16,8 +16,8 @@ const Brand = () => {
             <h1>FAVOURITE BRANDS</h1>
             <div className='brand-images'>
                 {
-                    brandImg.map((item) => {
-                        return <BrandItem item={item} />
+                    brandImg.map((item, i) => {
+                        return <BrandItem item={item} key={i} />
                     })
                 }
             </div>
